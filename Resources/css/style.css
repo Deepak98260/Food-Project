@@ -89,9 +89,9 @@ h1 {
     width: auto;
     float: left;
     margin-top: 10px;
-    position: absolute;
-    top: 0;
-    left: 2%;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 2%; */
 }
 
 .main-nav {
