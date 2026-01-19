@@ -7,6 +7,7 @@
     <title>My food project</title>
     <link rel="stylesheet" href="Resources/css/style.css">
     <link rel="stylesheet" href="Vendors/css/normalize.css">
+    <link rel="stylesheet" href="Vendors/css/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -37,31 +38,35 @@
     </header>
     <section class="section-features">
         <div class="row">
-            <h2>Get food fast - Not fast food</h2>
+            <h2>Get food fast &mdash; Not fast food</h2>
             <p class="long-copy">
                 Hello , we're omnifood, your new premium food delivery services. we know you're always busy. no time for cooking. so let us take care of that, we're really good at it, we promise!
             </p>
         </div>
         <div class="row">
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="infinite-outline"></ion-icon>
                 <h3>Up to 365 days/year</h3>
                 <p>never cook again we really mean that, our subscription plans include up to 365 days/year coverage. you can also choose to order more flexibly if that's your style </p>
 
             </div>
 
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="alarm-outline"></ion-icon>
                 <h3>Ready in 20 minutes</h3>
                 <p>you're only twenty minutes away from your delicious and super healthy meals delivered right to your home. we work with the best chefs in each town to ensure that you're 100% happy </p>
 
             </div>
 
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="fast-food-outline"></ion-icon>
                 <h3>100% organilty</h3>
                 <p>All our vegetables are fresh, organic and local. animal are raised without added hormones or antibiotices. good for your health, the environement, and it also tastes better </p>
 
             </div>
 
-            <div class="col span-1-of-4">
+            <div class="col span-1-of-4 box">
+                <ion-icon class="icon-big" name="bag-outline"></ion-icon>
                 <h3>order anything</h3>
                 <p>we don't limit your creativity, which means you can order whatever you feel like.you can also choose from our menu containing over 100 delicious meals. It's up to you</p>
 
@@ -71,14 +76,88 @@
         </div>
 
     </section>
+    <section class="section-meals">
+        <ul class="meals-showcase">
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/img1.jpg" alt="food-image">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/images2.jpg" alt="food-images"></figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/image3.jpg" alt="food-image">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/image4.jpg" alt="food-image">
+                </figure>
+            </li>
+
+        </ul>
+        <ul class="meals-showcase">
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/image5.jpg" alt="food-image">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/image6.jpg" alt="food-images"></figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/image7.jpg" alt="food-image">
+                </figure>
+            </li>
+            <li>
+                <figure class="meal-photo">
+                    <img src="Resources/img/image8.jpg" alt="food-image">
+                </figure>
+            </li>
+
+        </ul>
+
+
+    </section>
+
+    <section class="section-steps">
+        <div class="row">
+            <h2>How it works &mdash; Simple as 1,2,3</h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-2 steps-box">
+                <img class="app-screen" src="Resources/img/phone.jpg" alt="phone-img">
+            </div>
+            <div class="col span-1-of-2 steps-box">
+                <div class="work-step">
+                    <div>1</div>
+                    <p>Choose plan that fits best for your need and sign-up today</p>
+                </div>
+                <div class="work-step">
+                    <div>2</div>
+                    <p>Pay for the plain and download the app</p>
+                </div>
+                <div class="work-step">
+                    <div>3</div>
+                    <p>You are done start ordering!!</p>
+                </div>
+                <a href="#" class="btn-app"><img src="Resources/img/app-store.jpg" alt="app-store"></a>
+                <a href="#" class="btn-app"><img src="Resources/img/app-store-logo.png" alt="app-store-logo"></a>
+            </div>
+        </div>
+    </section>
 
 
 
 
 
-
-
-
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </body>
 
