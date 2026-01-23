@@ -46,7 +46,8 @@ h1 {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     text-decoration: none;
@@ -56,7 +57,8 @@ h1 {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     color: #fff;
     border: 1px solid #e67e22;
@@ -70,7 +72,8 @@ h1 {
 }
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit] {
     background-color: #cf6d17;
 }
 
@@ -81,7 +84,8 @@ h1 {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit] {
     border: 1px solid #cf6d17;
 }
 
@@ -234,6 +238,13 @@ h3 {
 
 .span-1-of-3:last-child {
     margin-right: 0;
+}
+
+
+/* 2/3 column layout */
+
+.span-2-of-3 {
+    width: 66.13%;
 }
 
 
@@ -479,4 +490,39 @@ blockquote:before {
     background-color: #fcfcfc;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+
+/* 7 section start here */
+
+.section-form {
+    padding: 80px 0;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100%;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+.contact-form .row {
+    margin-bottom: 20px;
 }
