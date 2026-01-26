@@ -4,13 +4,15 @@
             box-sizing: border-box;
         }
         
-        html {
+        html,
+        body {
             background-color: #ffffff;
             color: #555;
             font-family: Lato, sans-serif;
             font-weight: 300;
             font-size: 20px;
             text-rendering: optimizeLegibility;
+            overflow-x: hidden;
         }
         
         .row {
@@ -305,7 +307,7 @@
         .app-screen {
             width: 80%;
             margin-top: 5px;
-            /* height: 80%; */
+            /* height: 50%; */
             /* box-shadow: 10px 10px 5px #aaaaaa; */
         }
         
